@@ -26,4 +26,7 @@ function tryParseAmount(value, token) {
   return;
 }
 
-console.log(tryParseAmount("12.345", token));
+let tokenAmountObject = tryParseAmount("12.31145", token);
+console.log(tokenAmountObject);
+console.log(tokenAmountObject.toFixed());
+console.log(tokenAmountObject.toExact());
