@@ -1,0 +1,15 @@
+{
+  "name": "swappy_decimal_sdk",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ravi",
+  "license": "MIT",
+  "dependencies": {
+    "@ethersproject/units": "^5.0.0-beta.133",
+    "@uniswap/sdk": "^2.0.5"
+  }
+}
